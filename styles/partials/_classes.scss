@@ -1,0 +1,79 @@
+.corn{
+    color: white;
+    width: 40%;
+	height: 100px;
+	background: #444444;
+    
+    /* CORNER SETTINGS.  */
+    border-radius: 50px;
+}
+
+.bord{
+    color: white;
+    width: 40%;
+	height: 100px;
+	background: #444444;
+    
+    /* BORDER SETTINGS.  */
+    border: 1px solid red;
+    
+    font-weight: bolder;
+    text-shadow: 
+        -1px -1px 0 black, 
+        1px -1px 0 black, 
+        -1px 1px 0 black, 
+        1px 1px 0 black;
+    
+}
+.img{
+    width: 200px ;
+    height: auto;
+}
+
+.shad {
+    color: white;
+    width: 40%;
+	height: 100px;
+	background: #444444;
+    
+    /* SHADOW SETTINGS.  */
+    box-shadow: 3px 3px 1px grey;
+    text-shadow: 2px 2px 4px red;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtext{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $text-size;
+}
+
+.paragraph{
+    text-align: justify;
+    font-size: $text-size;
+}
+
+.spacing{
+    padding: $padding $text-padding;
+    margin: $padding $margin;   
+}
+
+.full{
+    width:100%;
+    height: 100%;
+}
+
+.current{
+    background-color: #333;
+}
+
+.cover{
+    width: 25%; 
+    height: auto;
+}

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Ubuntu, sans-serif;
+    color: #000;
+}
+
+li {
+    padding-left: 20%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: $primary;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: $h2;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding: $padding $text-padding 0 $text-padding;
+}
+
+header,
+main,
+footer {
+    max-width: 100%;
+}
+
+header,
+footer {
+    background-color: $alternate;
+    text-align: center;
+    color: whitesmoke;
+    a {
+        text-decoration: underline;
+        color: $primary;
+    }
+}
+
+header img {
+    padding-top: 10px;
+    height: auto;
+    float: top;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    margin: auto;
+    padding: $text-padding;
+}
+
+footer {
+    font-size: $text-size;
+    background-color: $footer;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: $padding $text-padding;
+}
+
+div {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    position: relative;
+    padding: $text-padding 10%;
+
+    a {
+        color: #FFF;
+        font-size: $text-size;
+        text-decoration: none;
+        padding: $text-padding*1.4;
+
+    }
+    a:hover {
+        background-color: #0068b3;
+    }
+}
