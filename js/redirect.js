@@ -2,10 +2,10 @@ function redirect(x){
     
     switch (x){
         case "home":
-            window.location.href = 'index.html';
+            window.location.href = 'about.html';
             break;
         case "portal":
-            window.location.href = 'portal.html';
+            window.location.href = 'index.html';
             break;
         default:
             return true;
