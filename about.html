@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head includefile="head.html"></head>
+<head includefile="head.html">
+    <title id="pagename">AboutMe</title>    
+</head>
 
 <body>
     <header>
         <div includefile="header.html"></div>
     </header>
     
-    <nav>
-        <a href="javascript:redirect('home');" id="home" class="current">Home</a>
+    <nav onload="navCheck()">
         <a href="javascript:redirect('portal');" id="portal">Assignment Portal</a>
+        <a href="javascript:redirect('home');" id="home" class="current">About Me</a>
     </nav>
 
     <main>
@@ -20,7 +22,7 @@
     <footer class="footer" includefile="footer.html"></footer>
     
     <script src="js/include.js">include();</script>
-    <script src="js/redirect.js"></script>
+    <script src="js/redirect.js">navCheck();</script>
 
 </body>
 

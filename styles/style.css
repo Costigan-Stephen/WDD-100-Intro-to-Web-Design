@@ -265,50 +265,6 @@ nav {
   nav a:hover {
     background-color: #0068b3; }
 
-table {
-  margin: auto;
-  font-family: Ubuntu, sans-serif;
-  font-weight: lighter;
-  border-spacing: 0px;
-  border: 0.05px solid #C4C4C4;
-  border-width: thin;
-  margin-bottom: 80px; }
-
-th, td {
-  border: 0.05px solid #C4C4C4;
-  border-width: thin;
-  text-align: center;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem; }
-
-thead span {
-  padding: 5px;
-  font-size: 18pt;
-  font-weight: bolder; }
-
-th {
-  background: #7fb9c2;
-  color: #000; }
-
-tbody tr {
-  background-color: #e7ffed; }
-
-tr:nth-child(even) {
-  background-color: #e7f0ed; }
-
-tbody tr:first-child {
-  background-color: #628ca6;
-  color: #fff;
-  font-weight: bolder; }
-
-.highlight {
-  background-color: #628ca6;
-  color: #fff; }
-
-tfoot tr {
-  background: #7fb9c2;
-  font-size: 8pt; }
-
 .corn {
   color: white;
   width: 40%;

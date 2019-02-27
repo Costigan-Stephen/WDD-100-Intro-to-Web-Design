@@ -22,15 +22,14 @@ function include() {
             xhttp.open('GET', './modules/' + file, true); // matching file names in includes folder
             xhttp.send();
             
-            var content = document.getElementById('gallery');  //content exists
-            if (content) {
-                cNav();
-            }
+            var content = document.getElementById('home');  //content exists
+            var pagename = document.getElementById('pagename');  //content exists
             
-            var date = document.getElementById('date'); //content exists
-            if (date) {
-                date();
-            }
+//            if (content) {
+//                if (pagename){
+//                    navCheck();
+//                }
+//            }
 
             return;
         }
@@ -38,3 +37,18 @@ function include() {
 }
 // initial call to the include function
 include();
+
+//function navCheck() {
+//
+//    var pName = document.getElementById('pagename').innerHTML;
+//    
+//    if (pName == "AboutMe") {
+//        document.getElementById('home').classList.remove('current');
+////        document.getElementById('portal').classList.add('current');
+//
+//    } else if (pName == "AssignmentPortal") {
+//        document.getElementById('about').classList.remove('current');
+////        document.getElementById('home').classList.add('current');
+//        
+//    }
+//}

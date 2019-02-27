@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head includefile="head.html"></head>
+<head includefile="head.html">
+    <title id="pagename">AssignmentPortal</title>
+    <script src="js/redirect.js"></script>
+</head>
 
 <body>
     <header>
         <div includefile="header.html"></div>
     </header>
-    
-    <nav>
-        <a href="javascript:redirect('home');" id="home">Home</a>
+
+    <nav onload="navCheck()">
         <a href="javascript:redirect('portal');" id="portal" class="current">Assignment Portal</a>
+        <a href="javascript:redirect('home');" id="home">About Me</a>
     </nav>
 
     <main>
@@ -18,10 +21,10 @@
 
     </main>
     <footer class="footer" includefile="footer.html"></footer>
-    
+
     <script src="js/include.js">include();</script>
     <script src="js/redirect.js"></script>
-
+    
 </body>
 
 </html>
