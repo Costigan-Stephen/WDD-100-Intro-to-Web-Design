@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Ubuntu, sans-serif;
+    color: #000;
+}
+
+li {
+    padding-left: 20%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: $primary;
+    padding-bottom: 10px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: $h2;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    padding: $padding $text-padding 0 $text-padding;
+}
+
+header,
+main,
+footer {
+    max-width: 100%;
+}
+
+header,
+footer {
+    background-color: $alternate;
+    text-align: left;
+    color: whitesmoke;
+    a {
+        text-decoration: underline;
+        color: $primary;
+    }
+}
+
+footer {
+    font-size: $text-size;
+    background-color: $footer;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: $padding $text-padding;
+}
+
+//div {
+//    text-align: center;
+//    padding-top: 30px;
+//    padding-bottom: 30px;
+//    margin-left: auto;
+//    margin-right: auto;
+//    position: relative;
+//}
+
+nav {
+    margin-top: -20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: $nav;
+    color: #FFF;
+    position: relative;
+    padding: $text-padding 10%;
+
+    li {
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        a {
+            font-size: $text-size;
+            text-decoration: none;
+            padding: $text-padding*1.4;
+            background-color: $primary;
+            color: $accent1;
+            box-shadow: 1px 2px rgba(0,0,0,0.5);
+
+            &:normal {
+                //Background-Color: #F7FFF7 Text-Color #6397BO
+                background-color: $primary;
+                color: $accent1;
+            }
+            &:hover {
+                //Link:hover :  [Background-Color: #1618C5 Text-Color #FFE66D]
+                background-color: $accent2;
+                color: $accent3;
+            }
+            &:active {
+                //Link:active: [Background-Color: #6397BO Text-Color # F7FFF7]
+                background-color: $accent1;
+                color: $primary;
+            }
+        }
+    }
+}
