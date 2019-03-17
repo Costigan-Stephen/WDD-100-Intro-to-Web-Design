@@ -2,11 +2,11 @@
 /* You may use #HEX or color names */
 
 /* * is a wildcard referring to all elements. */
+//sass --watch style.scss:style.css
 
+@import 'partials/images';
 @import 'partials/reset';
 @import 'partials/variables';
 @import 'partials/media';
 @import 'partials/elements';
 @import 'partials/classes';
-@import 'partials/images';
-

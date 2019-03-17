@@ -1,6 +1,42 @@
 /* WDD100 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
 /* * is a wildcard referring to all elements. */
+header img {
+  padding-top: 10px;
+  height: auto;
+  float: top; }
+
+.banner {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
+  /* Set a specific height */
+  width: 100%;
+  margin: 0;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.img {
+  position: absolute;
+  left: 20px;
+  top: -10px;
+  width: 140px;
+  height: auto;
+  z-index: 1; }
+
+.smedia {
+  text-decoration: none;
+  z-index: 1;
+  float: right;
+  margin-top: -25px;
+  margin-right: -10%;
+  right: 0px; }
+
+.sicon {
+  height: 80%; }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -219,8 +255,8 @@ footer {
   background-color: #343434;
   text-align: left;
   color: whitesmoke; }
-  header a,
-  footer a {
+  header li a,
+  footer li a {
     text-decoration: underline;
     color: #F7FFF7; }
 
@@ -248,20 +284,20 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden; }
-    nav li a {
+    nav li .nv {
       font-size: 24px;
       text-decoration: none;
       padding: 21px;
       background-color: #F7FFF7;
       color: #6397B0;
       box-shadow: 1px 2px rgba(0, 0, 0, 0.5); }
-      nav li a:normal {
+      nav li .nv:normal {
         background-color: #F7FFF7;
         color: #6397B0; }
-      nav li a:hover {
+      nav li .nv:hover {
         background-color: #1618C5;
         color: #FFE66D; }
-      nav li a:active {
+      nav li .nv:active {
         background-color: #6397B0;
         color: #F7FFF7; }
 
@@ -334,30 +370,5 @@ nav {
   display: block;
   text-align: left;
   align-content: center; }
-
-header img {
-  padding-top: 10px;
-  height: auto;
-  float: top; }
-
-.banner {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpg");
-  /* Set a specific height */
-  width: 100%;
-  margin: 0;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; }
-
-.img {
-  position: absolute;
-  left: 20px;
-  top: -10px;
-  width: 10vh;
-  height: auto;
-  z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
