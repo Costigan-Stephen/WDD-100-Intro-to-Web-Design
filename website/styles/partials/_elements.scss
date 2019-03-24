@@ -6,7 +6,6 @@
 body {
     font-size: 16px;
     line-height: 32px;
-    font-family: Ubuntu, sans-serif;
     color: #000;
 }
 
@@ -19,23 +18,33 @@ a {
     text-decoration: none;
 }
 
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: $text-size;
+}
+
 main {
     padding-top: 0px;
     padding-bottom: 60px;
 }
 
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
-    font-size: 2rem;
+    font-size: $text-h1;
     color: $primary;
     padding-bottom: 10px;
 }
 
 h2{
+    font-size: $text-h2;
     padding-bottom: 20px;
 }
 
 h3 {
-    font-size: $h2;
+    font-size: $text-h3;
     text-align: center;
     border-bottom: 1px solid #bbb;
     padding: $padding $text-padding 0 $text-padding;
@@ -49,6 +58,7 @@ footer {
 
 header,
 footer {
+    font-family: 'Abel', sans-serif;
     background-color: $alternate;
     text-align: left;
     color: whitesmoke;
@@ -95,7 +105,8 @@ nav {
         overflow: hidden;
 
         .nv {
-            font-size: $text-size;
+            font-size: $text-nav;
+            font-family: 'Abel', sans-serif;
             text-decoration: none;
             padding: $text-padding*1.4;
             background-color: $primary;

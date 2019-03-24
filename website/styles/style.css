@@ -1,6 +1,9 @@
 /* WDD100 - Assignment Portal CSS Template */
 /* You may use #HEX or color names */
 /* * is a wildcard referring to all elements. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300|Quicksand");
 header img {
   padding-top: 10px;
   height: auto;
@@ -218,7 +221,6 @@ template {
 body {
   font-size: 16px;
   line-height: 32px;
-  font-family: Ubuntu, sans-serif;
   color: #000; }
 
 li {
@@ -227,20 +229,28 @@ li {
 a {
   text-decoration: none; }
 
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18pt; }
+
 main {
   padding-top: 0px;
   padding-bottom: 60px; }
 
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif; }
+
 h1 {
-  font-size: 2rem;
+  font-size: 28pt;
   color: #F7FFF7;
   padding-bottom: 10px; }
 
 h2 {
+  font-size: 24pt;
   padding-bottom: 20px; }
 
 h3 {
-  font-size: 34px;
+  font-size: 22pt;
   text-align: center;
   border-bottom: 1px solid #bbb;
   padding: 40px 15px 0 15px; }
@@ -252,6 +262,7 @@ footer {
 
 header,
 footer {
+  font-family: 'Abel', sans-serif;
   background-color: #343434;
   text-align: left;
   color: whitesmoke; }
@@ -261,7 +272,7 @@ footer {
     color: #F7FFF7; }
 
 footer {
-  font-size: 24px;
+  font-size: 18pt;
   background-color: #21314f;
   position: relative;
   left: 0;
@@ -285,7 +296,8 @@ nav {
     padding: 0;
     overflow: hidden; }
     nav li .nv {
-      font-size: 24px;
+      font-size: 24pt;
+      font-family: 'Abel', sans-serif;
       text-decoration: none;
       padding: 21px;
       background-color: #F7FFF7;
@@ -318,7 +330,7 @@ nav {
 
 .paragraph {
   text-align: justify;
-  font-size: 24px; }
+  font-size: 18pt; }
 
 .spacing {
   padding: 40px 15px;
