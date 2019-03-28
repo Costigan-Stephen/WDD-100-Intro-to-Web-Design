@@ -1,0 +1,210 @@
+/* CSS - Name: "positionstyles.css" */
+/* Activity 1 styles */
+.red1,
+.red2,
+.red3,
+.red4,
+.red5,
+.red6, .green1,
+.green2,
+.green3,
+.green4,
+.green5,
+.green6, .yellow1,
+.yellow2,
+.yellow3,
+.yellow4,
+.yellow5,
+.yellow6, .blue1,
+.blue2,
+.blue3,
+.blue4,
+.blue5,
+.blue6 {
+  width: 100px;
+  height: 100px; }
+
+.red1,
+.red2,
+.red3,
+.red4,
+.red5,
+.red6 {
+  background-color: red; }
+
+.green1,
+.green2,
+.green3,
+.green4,
+.green5,
+.green6 {
+  background-color: green; }
+
+.yellow1,
+.yellow2,
+.yellow3,
+.yellow4,
+.yellow5,
+.yellow6 {
+  background-color: yellow; }
+
+.blue1,
+.blue2,
+.blue3,
+.blue4,
+.blue5,
+.blue6 {
+  background-color: blue; }
+
+.content1 {
+  /* This is the parent of the activity 1 boxes. */
+  display: flex; }
+
+/* Activity 2 styles */
+.content2 {
+  /* This is the parent of the activity 2 boxes. */
+  position: relative; }
+  .content2 div {
+    margin-top: -50px; }
+  .content2 .red2 {
+    margin-top: 0; }
+  .content2 .green2 {
+    margin-left: 50px; }
+  .content2 .yellow2 {
+    margin-left: 100px; }
+  .content2 .blue2 {
+    margin-left: 150px; }
+
+/* Activity 3 styles */
+.content3 {
+  /* This is the parent of the activity 3 boxes. */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .content3 .red3 {
+    width: 100%; }
+  .content3 .green3 {
+    width: 45%; }
+  .content3 .yellow3 {
+    margin-left: 10%;
+    width: 45%; }
+  .content3 .blue3 {
+    width: 100%; }
+
+/* Activity 4 styles */
+.content4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10% 0; }
+  .content4 .red4 {
+    width: 40%; }
+  .content4 .green4 {
+    width: 40%; }
+  .content4 .yellow4 {
+    width: 40%; }
+  .content4 .blue4 {
+    width: 40%; }
+
+/* Activity 5 styles */
+.content5 {
+  /* This is the parent of the activity 5 boxes. */
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  .content5 .red5 {
+    height: 100%;
+    width: 50%; }
+  .content5 .green5 {
+    height: calc(100%/3);
+    width: 50%; }
+  .content5 .yellow5 {
+    height: calc(100%/3);
+    width: 50%; }
+  .content5 .blue5 {
+    height: calc(100%/3);
+    width: 50%; }
+
+/* Activity 6 styles */
+.content6 {
+  /* This is the parent of the activity 6 boxes. */
+  overflow: auto; }
+  .content6 .red6 {
+    width: 100%; }
+  .content6 .green6 {
+    float: left; }
+  .content6 .yellow6 {
+    width: 100%;
+    height: auto;
+    top: 100px; }
+  .content6 .blue6 {
+    width: 100%; }
+
+/* Do not make any changes below here */
+.activity {
+  width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  clear: both;
+  overflow: auto; }
+
+.hint {
+  border: 1px solid grey;
+  background: #e0e0e0;
+  padding: .5em;
+  position: relative;
+  margin: 1em 0; }
+
+.hint h3 {
+  margin: 0; }
+
+.hint:hover {
+  background: #d0d0d0; }
+
+.hint > div {
+  display: none; }
+
+.hint input[type=checkbox] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer; }
+
+.hint input[type=checkbox]:checked ~ div {
+  display: block; }
+
+.hint i {
+  position: absolute;
+  transform: translate(-6px, 0);
+  margin-top: 16px;
+  right: 10px;
+  top: -3px; }
+
+.hint i:before,
+.hint i:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  width: 3px;
+  height: 9px; }
+
+.hint i:before {
+  transform: translate(2px, 0) rotate(45deg); }
+
+.hint i:after {
+  transform: translate(-2px, 0) rotate(-45deg); }
+
+.hint input[type=checkbox]:checked ~ i:before {
+  transform: translate(-2px, 0) rotate(45deg); }
+
+.hint input[type=checkbox]:checked ~ i:after {
+  transform: translate(2px, 0) rotate(-45deg); }
+
+/*# sourceMappingURL=style.css.map */

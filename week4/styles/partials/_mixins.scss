@@ -1,0 +1,9 @@
+%box-sizes {
+    width: $sizes;
+    height: $sizes;
+}
+
+@mixin boxes($color) {
+    @extend %box-sizes;
+    background-color: $color;
+}

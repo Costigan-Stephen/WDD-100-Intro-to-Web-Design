@@ -1,0 +1,27 @@
+.red1,
+.red2, 
+.red3, 
+.red4, 
+.red5, 
+.red6{ @include boxes(red); }
+
+.green1,
+.green2,
+.green3,
+.green4,
+.green5,
+.green6 { @include boxes(green); }
+
+.yellow1,
+.yellow2,
+.yellow3,
+.yellow4,
+.yellow5,
+.yellow6 { @include boxes(yellow); }
+
+.blue1,
+.blue2,
+.blue3,
+.blue4,
+.blue5,
+.blue6 { @include boxes(blue); }
