@@ -3,6 +3,8 @@
 
 /* * is a wildcard referring to all elements. */
 
+//sass --watch style.scss:style.css
+
 @import 'partials/reset';
 @import 'partials/variables';
 @import 'partials/media';

@@ -281,7 +281,7 @@ nav {
   /* BORDER SETTINGS.  */
   border: 1px solid red;
   font-weight: bolder;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black,  -1px 1px 0 black,  1px 1px 0 black; }
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
 
 .img {
   width: 200px;
@@ -325,5 +325,15 @@ nav {
 .cover {
   width: 25%;
   height: auto; }
+
+.links {
+  background-color: #ccc;
+  margin-top: 5px;
+  margin-left: -10px; }
+
+.list {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
