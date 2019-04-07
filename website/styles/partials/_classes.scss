@@ -16,7 +16,6 @@
     margin-right: auto;
 }
 
-
 .paragraph {
     text-align: justify;
     font-size: $text-size;
@@ -83,4 +82,8 @@
     display: block;
     text-align: left;
     align-content: center;
+}
+
+.textcenter{
+    text-align: center;
 }

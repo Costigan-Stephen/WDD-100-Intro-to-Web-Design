@@ -1,0 +1,20 @@
+<article class="center textcenter">
+    <p>If you need to get a hold of us quickly, please call us at 999-999-9999 during business hours.<p/>
+    <p>Otherwise, if it's not urgent, please fill out the form with your inquiry below.</p>
+</article>
+<br>
+<form name="processedForm" method="get" id="Form1" action="thanks.html">
+    <h2>Contact us</h2>
+
+    Your Full Name:<br>
+    <input type="text" id="name" name="name" pattern="[A-za-z ]{5}" title="Please enter a valid name"><br> Email Address:<br>
+    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="xxxxx@xxx.xx">
+    <span class="gridIn"><span>Phone Number:</span><span>Zip Code:</span>
+    <input id="bar" placeholder="(123) 456-7890" type="text" name="txtInput" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
+    <input type="number" id="zip" name="zip" onKeyDown="limitText(this,5)" required>
+    </span>
+     Type your message below<br>
+    <textarea name="comment" form="Form1" rows="4" cols="50">Enter text here...</textarea>
+    <input id="Submit" type="submit" value="Submit" name="Submit1" class="submit">
+
+</form>

@@ -1,0 +1,91 @@
+#Form1 h2 {
+    text-align: center;
+}
+
+.story { 
+    text-align: justify;
+    background-color: $primary;  
+    padding: 30px 15%;
+}
+
+form {
+    background-color: $accent1;
+    padding: 30px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 14pt;
+    line-height: 50px;
+    
+    p {
+        color: $white;
+    }
+    
+    input, textarea{
+        width: 100%;
+        padding: 5px 10px;
+        background-color: $primary;
+        color: #747474;
+    }
+
+    .L50{
+        width: 49%;
+        text-align: left;
+    }
+
+    .L25{
+        width: 24%;
+        text-align: left;
+    }
+
+    .gridIn{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gridIn4{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        text-align: left;
+    }
+    
+}
+
+.submit {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 16pt;
+    text-transform: uppercase;
+    border: solid white 1pt ;
+    background-color: $accent1;
+    color: $white;
+    
+    &:hover{
+        background-color: $accent3;
+        color: $black;
+    }
+}
+
+input::-webkit-calendar-picker-indicator {
+    opacity: 1;
+}
+
+.myarrow:after {
+    content: url(http://s25.postimg.org/6k40u5hcr/arrow.png);
+    margin-left: -20px; 
+    padding: .1em;
+    pointer-events:none;
+}
+
+fieldset {
+    overflow: hidden;
+}
+
+label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 2px 1em 0 0;
+}
